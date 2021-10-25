@@ -1,0 +1,116 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+     
+
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#nav a{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#middle{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#search, #voice{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    left: 13px;
+}
+
+#voice{
+    right: 13px;
+}
+
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: 0;
+    width: 800px;
+    border-radius: 30px;
+    border: 2px solid #c4c4c4;
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px rgb(228, 228, 228);
+}
+
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: rgb(231, 231, 231);
+    border: 1px solid transparent;
+}
+
+.button:hover{
+    box-shadow: 0 0 2px 1px grey;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+#links{
+    margin: 20px;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-content{
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+}
