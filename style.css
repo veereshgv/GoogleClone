@@ -41,6 +41,11 @@ a:hover{
     text-align: center;
 }
 
+#logo > img{
+    width: 400px;
+    height: 130px;
+}
+
 #searchbarcontainer{
     margin-top: 20px;
     text-align: center;
@@ -70,7 +75,7 @@ a:hover{
     padding-left: 40px;
     padding-right: 40px;
     outline: 0;
-    width: 800px;
+    width: 600px;
     border-radius: 30px;
     border: 2px solid #c4c4c4;
 }
